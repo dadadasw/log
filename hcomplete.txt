@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>医院注册成功</title>
+	<style type="text/css">
+		body
+		{
+			text-align: center;
+			font-size: 50px;
+			margin-top: 50px;
+			color: cornflowerblue;
+		}
+		</style>
+	</head>
+	<body>
+		<p>您已注册成功!</p>
+		<form action="http://127.0.0.1:8020/login/hlogin.html" method="get" name="hcomplete">
+			<input type="submit" value="立即登陆" name="imlogin" style=" width:100px;height: 40px"/>
+		</form>
+	</body>
+</html>
